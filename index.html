@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio ของนักศึกษา | [ชื่อของคุณ]</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        /* ตั้งค่า Font ให้เป็น Prompt เพื่อความเป็นไทย */
+        body {
+            font-family: 'Prompt', sans-serif;
+            background-color: #f7f7f7; 
+        }
+    </style>
+</head>
+<body class="text-gray-800">
+
+    <header class="bg-white shadow-lg sticky top-0 z-50">
+        <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+            <a href="#home" class="text-2xl font-bold text-indigo-600">Portfolio</a>
+            <nav class="space-x-4 hidden md:block">
+                <a href="#about" class="hover:text-indigo-600 transition duration-300">เกี่ยวกับฉัน</a>
+                <a href="#skills" class="hover:text-indigo-600 transition duration-300">ทักษะ</a>
+                <a href="#projects" class="hover:text-indigo-600 transition duration-300">ผลงาน</a>
+                <a href="#contact" class="px-3 py-1 bg-indigo-600 text-white rounded-lg hover:bg-indigo-700 transition duration-300">ติดต่อ</a>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="py-20 md:py-32 bg-white">
+        <div class="container mx-auto px-4 flex flex-col md:flex-row items-center justify-between">
+            <div class="md:w-3/5">
+                <h4 class="text-lg text-indigo-600 font-semibold mb-2">สวัสดีครับ, ผมคือ</h4>
+                <h1 class="text-5xl md:text-6xl font-extrabold leading-tight mb-4 text-gray-900">
+                    [ชื่อ-นามสกุล] <span class="text-indigo-600">(นักศึกษา)</span>
+                </h1>
+                <p class="text-xl md:text-2xl font-light mb-6">
+                    นักศึกษาคณะวิทยาศาสตร์ สาขาวิทยาการคอมพิวเตอร์ ผู้สนใจทางด้าน <span class="font-medium">AI และ Web Development</span>
+                </p>
+                <div class="space-x-4">
+                    <a href="#projects" class="inline-block px-6 py-3 bg-indigo-600 text-white font-medium rounded-full shadow-lg hover:bg-indigo-700 transition duration-300">
+                        ดูผลงานของฉัน
+                    </a>
+                    <a href="https://www.canva.com/resumes/templates/" target="_blank" class="inline-block px-6 py-3 border border-indigo-600 text-indigo-600 font-medium rounded-full hover:bg-indigo-50 transition duration-300">
+                        ดาวน์โหลด Resume
+                    </a>
+                </div>
+            </div>
+            <div class="md:w-1/5 mt-10 md:mt-0 flex justify-center">
+                <img src="https://via.placeholder.com/256x256.png?text=Profile+Photo" alt="รูปโปรไฟล์" class="w-48 h-48 md:w-64 md:h-64 object-cover rounded-full shadow-2xl border-4 border-indigo-500">
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="py-16 md:py-24 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12 border-b-2 border-indigo-600 pb-2 inline-block mx-auto">
+                🛠️ ทักษะ (Skills)
+            </h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition duration-300 border-t-4 border-indigo-500">
+                    <h3 class="text-2xl font-semibold mb-4 text-indigo-600">Programming / Web Dev</h3>
+                    <ul class="space-y-2 text-gray-700">
+                        <li><span class="font-medium">ภาษา:</span> Python, Java, HTML/CSS, JavaScript</li>
+                        <li><span class="font-medium">Web:</span> Tailwind CSS, Bootstrap</li>
+                    </ul>
+                </div>
+                
+                <div class="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition duration-300 border-t-4 border-green-500">
+                    <h3 class="text-2xl font-semibold mb-4 text-green-600">AI & Data Science</h3>
+                    <ul class="space-y-2 text-gray-700">
+                        <li><span class="font-medium">AI/ML:</span> TensorFlow, scikit-learn</li>
+                        <li><span class="font-medium">Data Tools:</span> Power BI, SQL</li>
+                    </ul>
+                </div>
+
+                <div class="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition duration-300 border-t-4 border-yellow-500">
+                    <h3 class="text-2xl font-semibold mb-4 text-yellow-600">Tools & Soft Skills</h3>
+                    <ul class="space-y-2 text-gray-700">
+                        <li><span class="font-medium">Tools:</span> Git, VS Code, Figma</li>
+                        <li><span class="font-medium">Soft Skills:</span> การสื่อสาร, การทำงานเป็นทีม</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="py-16 md:py-24 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12 border-b-2 border-indigo-600 pb-2 inline-block mx-auto">
+                📂 ผลงานที่ผ่านมา (Projects / Portfolio)
+            </h2>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
+                <div class="bg-gray-100 rounded-xl overflow-hidden shadow-lg">
+                    <img src="https://via.placeholder.com/600x300.png?text=Project+Screenshot+1" alt="Project 1 Screenshot" class="w-full h-56 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2 text-gray-900">ระบบจองห้องประชุมออนไลน์ (Web Project)</h3>
+                        <p class="text-gray-600 mb-4">
+                            พัฒนาระบบการจองและจัดการห้องประชุมสำหรับองค์กรขนาดเล็ก (ใส่รายละเอียดเพิ่ม)
+                        </p>
+                        <div class="flex space-x-3 text-sm font-medium">
+                            <a href="https://github.com/orgs/github/repositories" target="_blank" class="text-indigo-600 hover:text-indigo-800 transition duration-300">
+                                GitHub Repo →
+                            </a>
+                            <a href="https://wisernotify.com/marketing-term/live-demo/" target="_blank" class="text-green-600 hover:text-green-800 transition duration-300">
+                                Live Demo →
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-gray-100 rounded-xl overflow-hidden shadow-lg">
+                    <img src="https://via.placeholder.com/600x300.png?text=Project+Screenshot+2" alt="Project 2 Screenshot" class="w-full h-56 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2 text-gray-900">AI ทํานายโรคเบาหวาน (Data Project)</h3>
+                        <p class="text-gray-600 mb-4">
+                            ใช้โมเดล Scikit-learn ในการวิเคราะห์และทำนายความเสี่ยงโรคเบาหวาน (ใส่รายละเอียดเพิ่ม)
+                        </p>
+                        <div class="flex space-x-3 text-sm font-medium">
+                            <a href="https://github.com/orgs/github/repositories" target="_blank" class="text-indigo-600 hover:text-indigo-800 transition duration-300">
+                                GitHub Repo →
+                            </a>
+                            <a href="https://www.kaggle.com/general/51898" target="_blank" class="text-yellow-600 hover:text-yellow-800 transition duration-300">
+                                Notebook Demo →
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-16 md:py-24 bg-gray-50">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-3xl font-bold mb-8 border-b-2 border-indigo-600 pb-2 inline-block mx-auto">
+                📞 ติดต่อฉัน
+            </h2>
+            <p class="text-xl mb-10 text-gray-600">
+                หากสนใจผลงานของฉัน หรือต้องการพูดคุยเกี่ยวกับโอกาสในการฝึกงาน ติดต่อได้ตามช่องทางเหล่านี้:
+            </p>
+
+            <div class="flex flex-wrap justify-center gap-6 text-lg font-medium">
+                <a href="mailto:[Email ของคุณ]" class="p-4 bg-indigo-50 text-indigo-700 rounded-lg hover:bg-indigo-100 transition duration-300 shadow-md">
+                    📧 Email: [Your Email]
+                </a>
+                <a href="https://github.com/" target="_blank" class="p-4 bg-gray-100 text-gray-700 rounded-lg hover:bg-gray-200 transition duration-300 shadow-md">
+                    🐙 GitHub: [Your Username]
+                </a>
+                <a href="https://www.linkedin.com/" target="_blank" class="p-4 bg-blue-50 text-blue-700 rounded-lg hover:bg-blue-100 transition duration-300 shadow-md">
+                    💼 LinkedIn: [Your Profile]
+                </a>
+            </div>
+            
+            <p class="mt-8 text-sm text-gray-500">
+                [คณะ / มหาวิทยาลัย] | [ปีการศึกษา]
+            </p>
+        </div>
+    </section>
+
+    <footer class="bg-gray-800 text-white py-6 mt-10">
+        <div class="container mx-auto px-4 text-center">
+            <p>&copy; 2025 [ชื่อของคุณ] | สร้างด้วย HTML และ Tailwind CSS</p>
+        </div>
+    </footer>
+
+</body>
+</html>
